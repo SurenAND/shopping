@@ -1,18 +1,12 @@
+import { PageLayout } from "../../layout";
 import { Router } from "../../routes";
 import { El } from "../../utils/el";
+import { Product } from "./products";
 
 export function Home() {
   return El({
     element: "div",
-    className: "bg-red-300",
-    innerText: "Go to cart",
-    eventListener: [
-      {
-        event: "click",
-        callback: () => {
-          Router().navigate("/cart");
-        },
-      },
-    ],
+    className: "w-full",
+    children: [PageLayout(Product)],
   });
 }
