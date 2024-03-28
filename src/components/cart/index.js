@@ -1,9 +1,11 @@
+import { PageLayout } from "../../layout";
 import { El } from "../../utils/el";
+import { CartProduct } from "./products";
 
 export function Cart() {
   return El({
     element: "div",
-    className: "bg-blue-500",
-    innerText: "Cart",
+    className: "w-full",
+    children: [PageLayout(CartProduct)],
   });
 }

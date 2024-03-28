@@ -106,5 +106,41 @@
       "price": "1000"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "1",
+      "brand": "Samsung",
+      "model": "Galaxy S24 Ultra",
+      "image": "http://localhost:4002/public/images/Samsung-Galaxy-S24-Ultra.webp",
+      "price": "1000"
+    },
+    {
+      "id": "6",
+      "brand": "Xiaomi",
+      "model": "Poco M6 Pro",
+      "image": "http://localhost:4002/public/images/xiaomi-Poco-M6-Pro.webp",
+      "price": "1000"
+    },
+    {
+      "id": "9",
+      "brand": "Xiaomi",
+      "model": "Redmi A2 Plus",
+      "image": "http://localhost:4002/public/images/Redmi-Redmi-A2-Plus.webp",
+      "price": "1000"
+    },
+    {
+      "id": "5",
+      "brand": "Xiaomi",
+      "model": "Redmi Note 12S",
+      "image": "http://localhost:4002/public/images/Redmi-Note-12S.webp",
+      "price": "1000"
+    },
+    {
+      "id": "11",
+      "brand": "GLX",
+      "model": "iT5606",
+      "image": "http://localhost:4002/public/images/GLX-iT5606.webp",
+      "price": "1000"
+    }
+  ]
 }

@@ -4,7 +4,7 @@ import { El } from "../utils/el";
 export function CartPage() {
   return El({
     element: "div",
-    className: "bg-gray-500",
+    className: "",
     children: [Cart()],
   });
 }

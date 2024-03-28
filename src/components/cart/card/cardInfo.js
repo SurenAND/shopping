@@ -1,7 +1,6 @@
-import { addDataToApi } from "../../../library/axios";
 import { El } from "../../../utils/el";
 
-export const CardInfo = (product) => {
+export const CartCardInfo = (product) => {
   return El({
     element: "div",
     className: "flex-auto pt-6 px-3 flex flex-col justify-between",
@@ -25,20 +24,6 @@ export const CardInfo = (product) => {
             className: "w-full mt-2 text-sm font-medium",
             innerText: product.brand,
           }),
-        ],
-      }),
-      El({
-        element: "button",
-        className:
-          "mb-4 bg-green-700 py-2 text-white w-full rounded-md shadow hover:bg-green-600 cursor-pointer",
-        innerText: "Buy Now!",
-        eventListener: [
-          {
-            event: "click",
-            callback: () => {
-              addDataToApi("cart", product);
-            },
-          },
         ],
       }),
     ],

@@ -5,7 +5,7 @@ import { Header } from "./header";
 export const PageLayout = (main) => {
   return El({
     element: "div",
-    className: "bg-gray-300 w-full",
+    className: "w-full",
     children: [Header(), main(), Footer()],
   });
 };
