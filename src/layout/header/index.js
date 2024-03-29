@@ -1,5 +1,7 @@
 import { El } from "../../utils/el";
 import { Router } from "../../routes/index";
+import { localization } from "../../constant/localization";
+import { ROUTE } from "../../constant/routes";
 export const Header = () => {
   return El({
     element: "div",
@@ -14,14 +16,14 @@ export const Header = () => {
           {
             event: "click",
             callback: () => {
-              Router().navigate("/cart");
+              Router().navigate(ROUTE.cart);
             },
           },
         ],
       }),
       El({
         element: "h1",
-        innerText: "Welcome to our shop",
+        innerText: localization.welcome,
       }),
       El({
         element: "img",
@@ -31,7 +33,7 @@ export const Header = () => {
           {
             event: "click",
             callback: () => {
-              Router().navigate("/");
+              Router().navigate(ROUTE.home);
             },
           },
         ],
