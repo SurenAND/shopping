@@ -4,7 +4,7 @@ export const Header = () => {
   return El({
     element: "div",
     className:
-      "flex justify-between bg-blue-500 text-white p-5 text-center font-semibold uppercase text-3xl",
+      "flex justify-between bg-primary text-white p-5 text-center font-semibold uppercase text-3xl",
     children: [
       El({
         element: "img",

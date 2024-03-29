@@ -12,21 +12,21 @@
       "brand": "Nokia",
       "model": "106",
       "image": "http://localhost:4002/public/images/Nokia-106.webp",
-      "price": "1000"
+      "price": "2000"
     },
     {
       "id": "3",
       "brand": "Xiaomi",
       "model": "Redmi 12",
       "image": "http://localhost:4002/public/images/Redmi-12.webp",
-      "price": "1000"
+      "price": "5000"
     },
     {
       "id": "4",
       "brand": "Xiaomi",
       "model": "Redmi Note 13 Pro",
       "image": "http://localhost:4002/public/images/Redmi-Note-13-Pro.webp",
-      "price": "1000"
+      "price": "3000"
     },
     {
       "id": "5",
@@ -40,107 +40,71 @@
       "brand": "Xiaomi",
       "model": "Poco M6 Pro",
       "image": "http://localhost:4002/public/images/xiaomi-Poco-M6-Pro.webp",
-      "price": "1000"
+      "price": "5000"
     },
     {
       "id": "7",
       "brand": "Samsung",
       "model": "Galaxy A14",
       "image": "http://localhost:4002/public/images/Samsung-Galaxy-A14.webp",
-      "price": "1000"
+      "price": "6000"
     },
     {
       "id": "8",
       "brand": "Xiaomi",
       "model": "Redmi 13C",
       "image": "http://localhost:4002/public/images/Redmi-Redmi-13C.webp",
-      "price": "1000"
+      "price": "7000"
     },
     {
       "id": "9",
       "brand": "Xiaomi",
       "model": "Redmi A2 Plus",
       "image": "http://localhost:4002/public/images/Redmi-Redmi-A2-Plus.webp",
-      "price": "1000"
+      "price": "8000"
     },
     {
       "id": "10",
       "brand": "Samsung",
       "model": "Galaxy S24 Ultra",
       "image": "http://localhost:4002/public/images/Samsung-Galaxy-S24-Ultra.webp",
-      "price": "1000"
+      "price": "9000"
     },
     {
       "id": "11",
       "brand": "GLX",
       "model": "iT5606",
       "image": "http://localhost:4002/public/images/GLX-iT5606.webp",
-      "price": "1000"
+      "price": "10000"
     },
     {
       "id": "12",
       "brand": "iPhone",
       "model": "13",
       "image": "http://localhost:4002/public/images/iPhone-13.webp",
-      "price": "1000"
+      "price": "1500"
     },
     {
       "id": "13",
       "brand": "Samsung",
       "model": "Galaxy S23",
       "image": "http://localhost:4002/public/images/Samsung-Galaxy-S23.webp",
-      "price": "1000"
+      "price": "6500"
     },
     {
       "id": "14",
       "brand": "Samsung",
       "model": "Galaxy A54",
       "image": "http://localhost:4002/public/images/Samsung-Galaxy-A54.webp",
-      "price": "1000"
+      "price": "4500"
     },
     {
       "id": "15",
       "brand": "Samsung",
       "model": "Galaxy A15",
       "image": "http://localhost:4002/public/images/Samsung-Galaxy-A15.webp",
-      "price": "1000"
+      "price": "6872"
     }
   ],
-  "cart": [
-    {
-      "id": "1",
-      "brand": "Samsung",
-      "model": "Galaxy S24 Ultra",
-      "image": "http://localhost:4002/public/images/Samsung-Galaxy-S24-Ultra.webp",
-      "price": "1000"
-    },
-    {
-      "id": "6",
-      "brand": "Xiaomi",
-      "model": "Poco M6 Pro",
-      "image": "http://localhost:4002/public/images/xiaomi-Poco-M6-Pro.webp",
-      "price": "1000"
-    },
-    {
-      "id": "9",
-      "brand": "Xiaomi",
-      "model": "Redmi A2 Plus",
-      "image": "http://localhost:4002/public/images/Redmi-Redmi-A2-Plus.webp",
-      "price": "1000"
-    },
-    {
-      "id": "5",
-      "brand": "Xiaomi",
-      "model": "Redmi Note 12S",
-      "image": "http://localhost:4002/public/images/Redmi-Note-12S.webp",
-      "price": "1000"
-    },
-    {
-      "id": "11",
-      "brand": "GLX",
-      "model": "iT5606",
-      "image": "http://localhost:4002/public/images/GLX-iT5606.webp",
-      "price": "1000"
-    }
-  ]
+  "cart": []
 }

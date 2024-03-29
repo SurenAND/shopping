@@ -3,11 +3,12 @@ import axios from "axios";
 const BASE_URL = "http://localhost:5002";
 
 // fetch data
-export async function fetchData(endpiont, page, perPage) {
-  const { data } = await axios.get(
-    `${BASE_URL}/${endpiont}?_page=${page}&_per_page=${perPage}`
+export async function fetchData(endpoint, searchParam, page, perPage) {
+  const response = await axios.get(
+    `${BASE_URL}/${endpoint}?q=${searchParam}&_page=${page}&_per_page=${perPage}&_limit=5000`
   );
-  return data;
+  console.log(response);
+  return response.data;
 }
 
 // add data to API

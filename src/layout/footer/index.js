@@ -4,7 +4,7 @@ export const Footer = () => {
   return El({
     element: "div",
     className:
-      "fixed bottom-0 bg-blue-500 text-white p-3 text-center font-semibold text-xl w-full flex gap-5 justify-center",
+      "fixed bottom-0 bg-primary text-white p-3 text-center font-semibold text-xl w-full flex gap-5 justify-center",
     // innerText: "Footer",
     children: [
       El({

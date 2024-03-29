@@ -30,7 +30,7 @@ export const CardInfo = (product) => {
       El({
         element: "button",
         className:
-          "mb-4 bg-green-700 py-2 text-white w-full rounded-md shadow hover:bg-green-600 cursor-pointer",
+          "mb-4 bg-btn py-2 text-white w-full rounded-md shadow hover:bg-secondary cursor-pointer",
         innerText: "Buy Now!",
         eventListener: [
           {

@@ -1,7 +1,7 @@
 import { El } from "../../../utils/el";
 export const Pagination = (data, page, perPage) => {
   let start = (data.next ? data.next - 2 : data.last - 1) * perPage + 1;
-  let end = start + data.data.length - 1;
+  let end = start + data.length - 1;
 
   localStorage.setItem("page", "1");
   localStorage.setItem("perPage", "3");
