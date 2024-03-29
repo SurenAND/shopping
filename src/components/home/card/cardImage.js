@@ -8,8 +8,8 @@ export const CardImage = (product) => {
       El({
         element: "img",
         className: "w-full rounded-lg",
-        src: product.image,
-        alt: product.model,
+        src: product?.image,
+        alt: product?.model,
       }),
     ],
   });

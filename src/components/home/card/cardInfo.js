@@ -13,17 +13,17 @@ export const CardInfo = (product) => {
           El({
             element: "h1",
             className: "flex-auto text-xl font-semibold",
-            innerText: product.model,
+            innerText: product?.model,
           }),
           El({
             element: "h4",
             className: "text-xl font-semibold text-gray-500",
-            innerText: `$${product.price}`,
+            innerText: `$${product?.price}`,
           }),
           El({
             element: "h5",
             className: "w-full mt-2 text-sm font-medium",
-            innerText: product.brand,
+            innerText: product?.brand,
           }),
         ],
       }),
